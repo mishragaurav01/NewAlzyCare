@@ -17,26 +17,32 @@ class CreateViewController: UIViewController {
     }
     
     @IBAction func handlePlusButtonTapped(_ sender: UIButton) {
-        let alertController = UIAlertController(title: "Create New", message: nil, preferredStyle: .actionSheet)
-        
-        // Add "New Album" action
-        let newAlbumAction = UIAlertAction(title: "New Album", style: .default) { (_) in
-            PHPhotoLibrary.requestAuthorization { (authorizationStatus) in
-                if authorizationStatus == .authorized {
-                    PHPhotoLibrary.shared().performChanges({
-                        PHAssetCollectionChangeRequest.creationRequestForAssetCollection(withTitle: "New Album")
-                    }, completionHandler: { (success, error) in
-                        if success {
-                            print("New album created successfully.")
-                        } else if let error = error {
-                            print("Error creating new album: \(error.localizedDescription)")
+        let alertController = UIAlertController(title: "Create New Album", message: nil, preferredStyle: .alert)
+
+            // Add a text field for the album name
+            alertController.addTextField { (textField) in
+                textField.placeholder = "Enter album name"
+            }
+
+            // Add "Create" action
+            let createAction = UIAlertAction(title: "Create", style: .default) { (_) in
+                if let albumName = alertController.textFields?.first?.text {
+                    PHPhotoLibrary.requestAuthorization { (authorizationStatus) in
+                        if authorizationStatus == .authorized {
+                            PHPhotoLibrary.shared().performChanges({
+                                PHAssetCollectionChangeRequest.creationRequestForAssetCollection(withTitle: albumName)
+                            }, completionHandler: { (success, error) in
+                                if success {
+                                    print("New album created successfully: \(albumName)")
+                                } else if let error = error {
+                                    print("Error creating new album: \(error.localizedDescription)")
+                                }
+                            })
                         }
-                    })
+                    }
                 }
             }
-        }
-        alertController.addAction(newAlbumAction)
-        
+            alertController.addAction(createAction)
          
         
         // Add "Cancel" action
@@ -45,6 +51,9 @@ class CreateViewController: UIViewController {
         
         // Present the alert controller
         present(alertController, animated: true, completion: nil)
+        
+     
+       
     }
     
 
