@@ -16,6 +16,8 @@
 		050678882BFB184A00BE8E79 /* Planner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050678872BFB184A00BE8E79 /* Planner.storyboard */; };
 		0506788A2BFB185D00BE8E79 /* MemoryLane.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050678892BFB185C00BE8E79 /* MemoryLane.storyboard */; };
 		0506788C2BFB186500BE8E79 /* Assessment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0506788B2BFB186500BE8E79 /* Assessment.storyboard */; };
+		C4790BA42BFB19E200F0A2CC /* PlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4790BA32BFB19E200F0A2CC /* PlannerViewController.swift */; };
+		C4790BA72BFB1A3F00F0A2CC /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = C4790BA62BFB1A3F00F0A2CC /* CalendarKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		050678872BFB184A00BE8E79 /* Planner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Planner.storyboard; sourceTree = "<group>"; };
 		050678892BFB185C00BE8E79 /* MemoryLane.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoryLane.storyboard; sourceTree = "<group>"; };
 		0506788B2BFB186500BE8E79 /* Assessment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assessment.storyboard; sourceTree = "<group>"; };
+		C4790BA32BFB19E200F0A2CC /* PlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4790BA72BFB1A3F00F0A2CC /* CalendarKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +71,7 @@
 				050678752BFB16CA00BE8E79 /* ViewController.swift */,
 				050678772BFB16CA00BE8E79 /* Main.storyboard */,
 				050678872BFB184A00BE8E79 /* Planner.storyboard */,
+				C4790BA32BFB19E200F0A2CC /* PlannerViewController.swift */,
 				050678892BFB185C00BE8E79 /* MemoryLane.storyboard */,
 				0506788B2BFB186500BE8E79 /* Assessment.storyboard */,
 				0506787A2BFB16CB00BE8E79 /* Assets.xcassets */,
@@ -92,6 +97,9 @@
 			dependencies = (
 			);
 			name = NewAlzyCare;
+			packageProductDependencies = (
+				C4790BA62BFB1A3F00F0A2CC /* CalendarKit */,
+			);
 			productName = NewAlzyCare;
 			productReference = 0506786E2BFB16CA00BE8E79 /* NewAlzyCare.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 050678652BFB16CA00BE8E79;
+			packageReferences = (
+				C4790BA52BFB1A3F00F0A2CC /* XCRemoteSwiftPackageReference "CalendarKit" */,
+			);
 			productRefGroup = 0506786F2BFB16CA00BE8E79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				050678762BFB16CA00BE8E79 /* ViewController.swift in Sources */,
+				C4790BA42BFB19E200F0A2CC /* PlannerViewController.swift in Sources */,
 				050678722BFB16CA00BE8E79 /* AppDelegate.swift in Sources */,
 				050678742BFB16CA00BE8E79 /* SceneDelegate.swift in Sources */,
 			);
@@ -373,6 +385,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4790BA52BFB1A3F00F0A2CC /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4790BA62BFB1A3F00F0A2CC /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4790BA52BFB1A3F00F0A2CC /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 050678662BFB16CA00BE8E79 /* Project object */;
 }
