@@ -77,12 +77,12 @@
                                 <rect key="frame" x="16" y="296" width="204" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3" translatesAutoresizingMaskIntoConstraints="NO" id="9t5-6n-zCy">
-                                <rect key="frame" x="228" y="296" width="148" height="135"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wnD-d8-EsC">
+                                <rect key="frame" x="30" y="491" width="333" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wnD-d8-EsC">
-                                <rect key="frame" x="76" y="491" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3" translatesAutoresizingMaskIntoConstraints="NO" id="9t5-6n-zCy">
+                                <rect key="frame" x="228" y="333" width="148" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -133,20 +133,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eok-iq-Kbl">
-                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <rect key="frame" x="0.0" y="103" width="295" height="749"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="E56-CV-dQw">
-                                        <rect key="frame" x="3" y="-11" width="385" height="1116.6666666666667"/>
+                                        <rect key="frame" x="3" y="-11" width="289" height="1116.6666666666667"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Album1" translatesAutoresizingMaskIntoConstraints="NO" id="T0N-tW-AmW">
-                                                <rect key="frame" x="0.0" y="0.0" width="385" height="171"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="289" height="171"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="171" id="ZpI-g6-sUL"/>
                                                     <constraint firstAttribute="width" constant="289" id="ePl-OQ-Q0s"/>
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3N-y5-VGe">
-                                                <rect key="frame" x="0.0" y="181" width="385" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="181" width="289" height="34.333333333333343"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Beach Vacation"/>
@@ -155,53 +155,53 @@
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album2" translatesAutoresizingMaskIntoConstraints="NO" id="SlE-o5-Uv6">
-                                                <rect key="frame" x="0.0" y="225.33333333333331" width="385" height="171"/>
+                                                <rect key="frame" x="0.0" y="225.33333333333331" width="289" height="171"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="171" id="6qk-zh-CG9"/>
                                                     <constraint firstAttribute="width" constant="289" id="xnI-Rr-Kmp"/>
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uX9-i1-735">
-                                                <rect key="frame" x="0.0" y="406.33333333333331" width="385" height="34.333333333333314"/>
+                                                <rect key="frame" x="0.0" y="406.33333333333331" width="289" height="34.333333333333314"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Birthdays"/>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album3" translatesAutoresizingMaskIntoConstraints="NO" id="zk0-hS-y1R">
-                                                <rect key="frame" x="0.0" y="450.66666666666663" width="385" height="171"/>
+                                                <rect key="frame" x="0.0" y="450.66666666666663" width="289" height="171"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="289" id="Kxe-6O-wsA"/>
                                                     <constraint firstAttribute="height" constant="171" id="aDX-v6-lBi"/>
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tB-Z3-cBi">
-                                                <rect key="frame" x="0.0" y="631.66666666666663" width="385" height="34.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="631.66666666666663" width="289" height="34.333333333333371"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Cooking Sessions"/>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album4" translatesAutoresizingMaskIntoConstraints="NO" id="Rfj-dR-FaR">
-                                                <rect key="frame" x="0.0" y="676" width="385" height="171"/>
+                                                <rect key="frame" x="0.0" y="676" width="289" height="171"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="289" id="G0w-Wd-0rG"/>
                                                     <constraint firstAttribute="height" constant="171" id="q7m-kQ-ANu"/>
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCS-Ao-bac">
-                                                <rect key="frame" x="0.0" y="857" width="385" height="34.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="857" width="289" height="34.333333333333371"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Gardening"/>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album5" translatesAutoresizingMaskIntoConstraints="NO" id="L9Z-b2-uKy">
-                                                <rect key="frame" x="0.0" y="901.33333333333337" width="385" height="171.00000000000011"/>
+                                                <rect key="frame" x="0.0" y="901.33333333333337" width="289" height="171.00000000000011"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="171" id="AmK-jT-Y2r"/>
                                                     <constraint firstAttribute="width" constant="289" id="O5n-2Z-cwI"/>
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77w-jz-qUi">
-                                                <rect key="frame" x="0.0" y="1082.3333333333333" width="385" height="34.333333333333258"/>
+                                                <rect key="frame" x="0.0" y="1082.3333333333333" width="289" height="34.333333333333258"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Friends"/>
