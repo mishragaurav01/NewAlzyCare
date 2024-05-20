@@ -16,6 +16,10 @@
 		050678882BFB184A00BE8E79 /* Planner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050678872BFB184A00BE8E79 /* Planner.storyboard */; };
 		0506788A2BFB185D00BE8E79 /* MemoryLane.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050678892BFB185C00BE8E79 /* MemoryLane.storyboard */; };
 		0506788C2BFB186500BE8E79 /* Assessment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0506788B2BFB186500BE8E79 /* Assessment.storyboard */; };
+		05350A902BFB2CAE007EB21C /* MemoryLaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350A8F2BFB2CAE007EB21C /* MemoryLaneViewController.swift */; };
+		05350A922BFB2D92007EB21C /* Album1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350A912BFB2D92007EB21C /* Album1.swift */; };
+		05350A942BFB2DC5007EB21C /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350A932BFB2DC5007EB21C /* PhotoAlbumViewController.swift */; };
+		05350A962BFB2E87007EB21C /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350A952BFB2E87007EB21C /* AssessmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		050678872BFB184A00BE8E79 /* Planner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Planner.storyboard; sourceTree = "<group>"; };
 		050678892BFB185C00BE8E79 /* MemoryLane.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoryLane.storyboard; sourceTree = "<group>"; };
 		0506788B2BFB186500BE8E79 /* Assessment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assessment.storyboard; sourceTree = "<group>"; };
+		05350A8F2BFB2CAE007EB21C /* MemoryLaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLaneViewController.swift; sourceTree = "<group>"; };
+		05350A912BFB2D92007EB21C /* Album1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album1.swift; sourceTree = "<group>"; };
+		05350A932BFB2DC5007EB21C /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		05350A952BFB2E87007EB21C /* AssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +74,12 @@
 				050678732BFB16CA00BE8E79 /* SceneDelegate.swift */,
 				050678752BFB16CA00BE8E79 /* ViewController.swift */,
 				050678772BFB16CA00BE8E79 /* Main.storyboard */,
+				05350A952BFB2E87007EB21C /* AssessmentViewController.swift */,
 				050678872BFB184A00BE8E79 /* Planner.storyboard */,
 				050678892BFB185C00BE8E79 /* MemoryLane.storyboard */,
+				05350A912BFB2D92007EB21C /* Album1.swift */,
+				05350A932BFB2DC5007EB21C /* PhotoAlbumViewController.swift */,
+				05350A8F2BFB2CAE007EB21C /* MemoryLaneViewController.swift */,
 				0506788B2BFB186500BE8E79 /* Assessment.storyboard */,
 				0506787A2BFB16CB00BE8E79 /* Assets.xcassets */,
 				0506787C2BFB16CB00BE8E79 /* LaunchScreen.storyboard */,
@@ -150,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05350A922BFB2D92007EB21C /* Album1.swift in Sources */,
 				050678762BFB16CA00BE8E79 /* ViewController.swift in Sources */,
+				05350A962BFB2E87007EB21C /* AssessmentViewController.swift in Sources */,
+				05350A902BFB2CAE007EB21C /* MemoryLaneViewController.swift in Sources */,
 				050678722BFB16CA00BE8E79 /* AppDelegate.swift in Sources */,
 				050678742BFB16CA00BE8E79 /* SceneDelegate.swift in Sources */,
+				05350A942BFB2DC5007EB21C /* PhotoAlbumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
