@@ -16,6 +16,8 @@
 		050678882BFB184A00BE8E79 /* Planner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050678872BFB184A00BE8E79 /* Planner.storyboard */; };
 		0506788A2BFB185D00BE8E79 /* MemoryLane.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050678892BFB185C00BE8E79 /* MemoryLane.storyboard */; };
 		0506788C2BFB186500BE8E79 /* Assessment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0506788B2BFB186500BE8E79 /* Assessment.storyboard */; };
+		05C6F1132BFB2AB4003F5A5A /* MemoryLaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6F1122BFB2AB4003F5A5A /* MemoryLaneViewController.swift */; };
+		05C6F1152BFB2ABD003F5A5A /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6F1142BFB2ABD003F5A5A /* AssessmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		050678872BFB184A00BE8E79 /* Planner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Planner.storyboard; sourceTree = "<group>"; };
 		050678892BFB185C00BE8E79 /* MemoryLane.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoryLane.storyboard; sourceTree = "<group>"; };
 		0506788B2BFB186500BE8E79 /* Assessment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assessment.storyboard; sourceTree = "<group>"; };
+		05C6F1122BFB2AB4003F5A5A /* MemoryLaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLaneViewController.swift; sourceTree = "<group>"; };
+		05C6F1142BFB2ABD003F5A5A /* AssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +76,26 @@
 				0506787A2BFB16CB00BE8E79 /* Assets.xcassets */,
 				0506787C2BFB16CB00BE8E79 /* LaunchScreen.storyboard */,
 				0506787F2BFB16CB00BE8E79 /* Info.plist */,
+				05C6F1162BFB2AC3003F5A5A /* RT */,
+				05C6F1172BFB2AD0003F5A5A /* TEST */,
 			);
 			path = NewAlzyCare;
+			sourceTree = "<group>";
+		};
+		05C6F1162BFB2AC3003F5A5A /* RT */ = {
+			isa = PBXGroup;
+			children = (
+				05C6F1122BFB2AB4003F5A5A /* MemoryLaneViewController.swift */,
+			);
+			path = RT;
+			sourceTree = "<group>";
+		};
+		05C6F1172BFB2AD0003F5A5A /* TEST */ = {
+			isa = PBXGroup;
+			children = (
+				05C6F1142BFB2ABD003F5A5A /* AssessmentViewController.swift */,
+			);
+			path = TEST;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				050678762BFB16CA00BE8E79 /* ViewController.swift in Sources */,
+				05C6F1132BFB2AB4003F5A5A /* MemoryLaneViewController.swift in Sources */,
 				050678722BFB16CA00BE8E79 /* AppDelegate.swift in Sources */,
 				050678742BFB16CA00BE8E79 /* SceneDelegate.swift in Sources */,
+				05C6F1152BFB2ABD003F5A5A /* AssessmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

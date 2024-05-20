@@ -38,17 +38,17 @@
         <scene sceneID="6vm-dG-Q22">
             <objects>
                 <viewControllerPlaceholder storyboardName="MemoryLane" id="uRB-br-elm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7yV-hR-Dkp"/>
+                    <tabBarItem key="tabBarItem" title="MemoryLane" image="brain" catalog="system" selectedImage="brain.fill" id="7yV-hR-Dkp"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hT9-Kq-Dhc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="164" y="375"/>
+            <point key="canvasLocation" x="164" y="437"/>
         </scene>
         <!--Assessment-->
         <scene sceneID="3Bb-qr-wMl">
             <objects>
                 <viewControllerPlaceholder storyboardName="Assessment" id="mfa-ua-RZ8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="qQI-YT-OKo"/>
+                    <tabBarItem key="tabBarItem" title="Assessment" image="list.clipboard" catalog="system" selectedImage="list.clipboard.fill" id="qQI-YT-OKo"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huY-Bx-FCN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,6 +60,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7R4-0N-fXp" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jva-vg-EKd">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -76,6 +77,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="brain" catalog="system" width="128" height="107"/>
+        <image name="brain.fill" catalog="system" width="128" height="107"/>
+        <image name="list.clipboard" catalog="system" width="98" height="128"/>
+        <image name="list.clipboard.fill" catalog="system" width="98" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
