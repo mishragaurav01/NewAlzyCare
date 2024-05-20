@@ -20,6 +20,7 @@
 		05350A922BFB2D92007EB21C /* Album1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350A912BFB2D92007EB21C /* Album1.swift */; };
 		05350A942BFB2DC5007EB21C /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350A932BFB2DC5007EB21C /* PhotoAlbumViewController.swift */; };
 		05350A962BFB2E87007EB21C /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350A952BFB2E87007EB21C /* AssessmentViewController.swift */; };
+		0594F87C2BFB657100C4E9F2 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0594F87B2BFB657100C4E9F2 /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		05350A912BFB2D92007EB21C /* Album1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album1.swift; sourceTree = "<group>"; };
 		05350A932BFB2DC5007EB21C /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
 		05350A952BFB2E87007EB21C /* AssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
+		0594F87B2BFB657100C4E9F2 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				05350A952BFB2E87007EB21C /* AssessmentViewController.swift */,
 				050678872BFB184A00BE8E79 /* Planner.storyboard */,
 				050678892BFB185C00BE8E79 /* MemoryLane.storyboard */,
+				0594F87B2BFB657100C4E9F2 /* CreateViewController.swift */,
 				05350A912BFB2D92007EB21C /* Album1.swift */,
 				05350A932BFB2DC5007EB21C /* PhotoAlbumViewController.swift */,
 				05350A8F2BFB2CAE007EB21C /* MemoryLaneViewController.swift */,
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0594F87C2BFB657100C4E9F2 /* CreateViewController.swift in Sources */,
 				05350A922BFB2D92007EB21C /* Album1.swift in Sources */,
 				050678762BFB16CA00BE8E79 /* ViewController.swift in Sources */,
 				05350A962BFB2E87007EB21C /* AssessmentViewController.swift in Sources */,

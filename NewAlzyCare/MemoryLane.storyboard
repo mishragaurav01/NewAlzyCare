@@ -127,7 +127,7 @@
         <!--Albums-->
         <scene sceneID="eC1-bW-Ccd">
             <objects>
-                <viewController id="xCx-6O-fCT" sceneMemberID="viewController">
+                <viewController id="xCx-6O-fCT" customClass="CreateViewController" customModule="NewAlzyCare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TYr-nQ-hf3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -234,7 +234,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Albums" id="Crx-52-d5U">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="WVO-Pl-Ssf"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="WVO-Pl-Ssf">
+                            <connections>
+                                <action selector="handlePlusButtonTapped:" destination="xCx-6O-fCT" id="cYg-XS-B7k"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uV9-FP-jlG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
