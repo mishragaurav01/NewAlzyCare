@@ -16,6 +16,10 @@
 		050678882BFB184A00BE8E79 /* Planner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050678872BFB184A00BE8E79 /* Planner.storyboard */; };
 		0506788A2BFB185D00BE8E79 /* MemoryLane.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050678892BFB185C00BE8E79 /* MemoryLane.storyboard */; };
 		0506788C2BFB186500BE8E79 /* Assessment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0506788B2BFB186500BE8E79 /* Assessment.storyboard */; };
+		F4ADCE2A2BFD976C00567610 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADCE292BFD976C00567610 /* ProfileViewController.swift */; };
+		F4C754682BFB91C50006511E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C754672BFB91C50006511E /* DataModel.swift */; };
+		F4C754722BFBC9CD0006511E /* SuggestedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C754712BFBC9CD0006511E /* SuggestedCollectionViewCell.swift */; };
+		F4C754742BFBC9D90006511E /* Suggested.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C754732BFBC9D90006511E /* Suggested.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		050678872BFB184A00BE8E79 /* Planner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Planner.storyboard; sourceTree = "<group>"; };
 		050678892BFB185C00BE8E79 /* MemoryLane.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoryLane.storyboard; sourceTree = "<group>"; };
 		0506788B2BFB186500BE8E79 /* Assessment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assessment.storyboard; sourceTree = "<group>"; };
+		F4ADCE292BFD976C00567610 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F4C754672BFB91C50006511E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F4C754712BFBC9CD0006511E /* SuggestedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4C754732BFBC9D90006511E /* Suggested.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Suggested.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +72,12 @@
 			children = (
 				050678712BFB16CA00BE8E79 /* AppDelegate.swift */,
 				050678732BFB16CA00BE8E79 /* SceneDelegate.swift */,
-				050678752BFB16CA00BE8E79 /* ViewController.swift */,
+				F4C754672BFB91C50006511E /* DataModel.swift */,
 				050678772BFB16CA00BE8E79 /* Main.storyboard */,
+				F4ADCE292BFD976C00567610 /* ProfileViewController.swift */,
+				050678752BFB16CA00BE8E79 /* ViewController.swift */,
+				F4C754712BFBC9CD0006511E /* SuggestedCollectionViewCell.swift */,
+				F4C754732BFBC9D90006511E /* Suggested.xib */,
 				050678872BFB184A00BE8E79 /* Planner.storyboard */,
 				050678892BFB185C00BE8E79 /* MemoryLane.storyboard */,
 				0506788B2BFB186500BE8E79 /* Assessment.storyboard */,
@@ -135,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0506787E2BFB16CB00BE8E79 /* LaunchScreen.storyboard in Resources */,
+				F4C754742BFBC9D90006511E /* Suggested.xib in Resources */,
 				050678882BFB184A00BE8E79 /* Planner.storyboard in Resources */,
 				0506787B2BFB16CB00BE8E79 /* Assets.xcassets in Resources */,
 				0506788A2BFB185D00BE8E79 /* MemoryLane.storyboard in Resources */,
@@ -150,7 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4ADCE2A2BFD976C00567610 /* ProfileViewController.swift in Sources */,
+				F4C754722BFBC9CD0006511E /* SuggestedCollectionViewCell.swift in Sources */,
 				050678762BFB16CA00BE8E79 /* ViewController.swift in Sources */,
+				F4C754682BFB91C50006511E /* DataModel.swift in Sources */,
 				050678722BFB16CA00BE8E79 /* AppDelegate.swift in Sources */,
 				050678742BFB16CA00BE8E79 /* SceneDelegate.swift in Sources */,
 			);
